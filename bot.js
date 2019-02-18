@@ -1,4 +1,4 @@
-} else if(msg.content.startsWith(`${PREFIX}skip`)) {
+} else if(msg.content.startsWith(`${2}skip`)) {
         if(!msg.member.voiceChannel){
            var embedskip1 = new Discord.RichEmbed()
                 .setTitle(`You are in not in the Voice Channel!`)
